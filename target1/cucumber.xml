@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="1.719" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="personal details page fields validation" name="Pre filled fields in personal details page from signup page validation - Example #1.1" time="1.566">
+<failure type="java.lang.NullPointerException" message="Cannot invoke &quot;com.relevantcodes.extentreports.ExtentReports.startTest(String)&quot; because the return value of &quot;org.example.action.TestRunner.getExtentReport()&quot; is null">
+<![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because the return value of "org.example.action.TestRunner.getExtentReport()" is null
+	at org.example.hooks.Hooks.Setup(Hooks.java:32)
+]]>
+</failure>
+<system-out><![CDATA[
+Given user navigates to home page...........................................skipped
+When user click on start application button in home page....................skipped
+And user enter mandatory data for field "TestFirstName" and "" and "TestLastName" and "Diploma in Jewellery Design Technology" and "M" and "India" and "TV" and "+919241521992" and "auto" and "password" and "password" and "yes".skipped
+And user click start application button.....................................skipped
+Then user should navigate to personal details page..........................skipped
+And verify that fields "TestFirstName" and "TestLastName" and "M" and "India" are prefilled from Signup page.skipped
+]]></system-out>
+</testcase>
+</testsuite>
